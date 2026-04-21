@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # -----------------------------
-# TrueNAS Config Backup
+# TrueNAS Config Backup Works Until Version 26
 # -----------------------------
 
 # CONFIGURATION
