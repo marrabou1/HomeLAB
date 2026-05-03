@@ -1,0 +1,40 @@
+#Show configured networks
+acli net.list
+
+# Compute / Workloads
+acli net.delete VL_110_Compute_Generic vlan=110
+acli net.delete VL_111_Compute_Frontend vlan=111
+acli net.delete VL_112_Compute_Middleware vlan=112
+acli net.delete VL_113_Compute_Backend vlan=113
+acli net.delete VL_114_Compute_Other vlan=114
+
+# User & Access Networks
+acli net.delete VL_120_User_Network vlan=120
+acli net.delete VL_121_User_Wireless vlan=121
+acli net.delete VL_122_User_Guest vlan=122
+
+# Devices / Embedded
+acli net.delete VL_130_Device_Generic vlan=130
+acli net.delete VL_131_Device_Automation vlan=131
+acli net.delete VL_132_Device_Controllers vlan=132
+
+# Platform & Services
+acli net.delete VL_140_Platform_Services vlan=140
+acli net.delete VL_141_Platform_Proxy vlan=141
+acli net.delete VL_142_Platform_Security vlan=142
+acli net.delete VL_143_Platform_Observability vlan=143
+
+# Management & Operations
+acli net.delete VL_150_Management vlan=150
+acli net.delete VL_151_Management_Backup vlan=151
+acli net.delete VL_152_Management_Identity vlan=152
+acli net.delete VL_153_Management_Access vlan=153
+
+# Experimental / Lab
+acli net.delete VL_160_Lab_Experimental vlan=160
+acli net.delete VL_161_Lab_AI vlan=161
+acli net.delete VL_100_Core vlan=100
+acli net.delete VL_101_Utility vlan=101
+
+#Show configured networks
+acli net.list
